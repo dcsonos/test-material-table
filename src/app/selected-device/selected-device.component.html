@@ -1,0 +1,12 @@
+<div *ngIf="current">
+<div>
+  <span>Device Id {{current.id}}</span>
+  <span>Device Name: {{current.name}}</span>
+  <span>Device last updated at {{current.latestUpdated | date: 'fullDate'}}</span>
+</div>
+<div>
+  <span>IP {{current.ip}}</span>
+  <span>Location: {{current.location}}</span>
+  <span>{{current.model}}</span>
+</div>
+</div>
